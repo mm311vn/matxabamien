@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>mau-thuan</title>
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <div class="bg"></div>
+        <div class="red-panel">
+            <audio id="audio" src="1.mp3" type="audio/ogg"></audio> 
+            <div class="container">
+                <ul class="playList">
+                    <li type="text" class="songButtons current" id="0" value="0">1</li>
+                    <li type="text" class="songButtons" id="1" value="1">2</li>
+                    <li type="text" class="songButtons" id="2" value="2">3</li>
+                </ul>
+                
+                <img id="dog" src="dog.jpg" alt="dog">
+
+                <div id="progressRange"></div>
+                <div id="progressBar"></div>
+            </div>
+
+            
+            
+            <div class="navigation">
+                <input type="image" src="prevButton.png" id="prevButton" class="buttons" value=""></input>
+                <input type="image" src="playButton.png" id="playButton" class="buttons" value=""></input>
+                <input type="image" src="nextButton.png" id="nextButton" class="buttons" value=""></input>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
